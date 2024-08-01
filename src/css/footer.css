@@ -14,12 +14,9 @@
 }
 
 
-#container-footer {
+#container-footer{
     background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(25, 25, 25) 90.2%);
-    min-height: 146vh; /* Use min-height ao invés de height fixa */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 146vh;
 }
 
 .container-link-redes-monitor{
