@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Nexa;
+    src: url('/src/fonts/Nexa-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: Nexa-heavy;
+    src: url('/src/fonts/Nexa-Heavy.ttf');
+}
+
+@font-face {
+    font-family: Furore;
+    src: url('/src/fonts/Furore.otf');
+}
+
+
+#container-footer{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(25, 25, 25) 90.2%);
+    height: 146vh;
+}
+
+.container-link-redes-monitor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-links-redes-offmonitor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.titulo-monitor{
+    font-size: 7rem;
+    font-family: Nexa-heavy;
+    font-weight: 600;
+    color: #d02c2c;;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-links-social{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-compre-agora{
+    padding: 15px 30px;
+    background-color: #588544;
+    font-size: 1.5rem;
+    border: 2px solid #588544; 
+    color: #fff;
+    text-decoration: none;
+    font-family: Nexa-heavy;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-compre-agora:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff; 
+}
+
+.monitor-footer-img{
+    margin-top: -7rem;
+    width: 100%;
+}
+
+.copyright-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10rem;
+    margin-left: 9rem;
+    gap: 6rem;
+}
+
+.copyright-img p{
+    color:#fff;
+    font-family: Nexa;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #container-footer{
+        background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(25, 25, 25) 90.2%);
+        height: 61vh;
+    }
+    
+    .container-link-redes-monitor{
+        margin: 1rem;
+    }
+
+    .copyright-img{
+        margin-left: 1rem;
+    }
+
+    .copyright-img img{
+        width: 15%;
+    }
+    .copyright-img p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container-footer-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .titulo-monitor{
+        font-family: Nexa-heavy;
+        font-weight: 700;
+        font-size: 4.5rem;
+    }
+
+    .monitor-footer-img{
+        display: none;
+    }
+    .redes-sociais{
+        width: 120%;
+        gap: 1px;
+    }
+    .redes-sociais a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copyright-img{
+        padding-top: 15rem;
+    }
+
+    .copyright-img p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 376px) {}
