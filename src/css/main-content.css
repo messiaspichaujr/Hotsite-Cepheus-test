@@ -239,5 +239,30 @@
     }
 }
 
+@media screen and (max-width: 400px){
+    #section-four {
+        width: 100%;
+        height: 340vh;
+        background-image: url("../assets/background-section4.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media screen and (max-width: 376px) {}
+@media screen and (max-width: 376px) {
+    #section-four {
+        width: 100%;
+        height: 430vh;
+        background-image: url("../assets/background-section4.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

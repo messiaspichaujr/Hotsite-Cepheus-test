@@ -174,17 +174,10 @@ header {
         top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 1000; /* Garantir que o menu fique acima de outros elementos */
     }
     
     #mobile-links li {
         width: 100%;
         text-align: center; 
     }
-
-    #mobile-links li a:hover {
-        background-color: #fff;
-        color: #000;
-        width: 100%;
-     }
 }
