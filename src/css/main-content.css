@@ -102,7 +102,7 @@
     
     #section-four {
         width: 100%;
-        height: 260vh;
+        height: 400vh;
         background-image: url("../assets/background-section4.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -181,7 +181,7 @@
 
 @media screen and (max-width: 768px) {
     #section-four {
-        height: 260vh;
+        height: 310vh;
     }
 
     .descricoes {
@@ -274,6 +274,12 @@
 
 }
 
+@media screen and (max-width: 425px){
+    #section-four {
+        height: 165vh;
+    }
+}
+
 @media screen and (max-width: 400px){
     #section-four {
         width: 100%;
@@ -297,14 +303,22 @@
 
 @media screen and (max-width: 376px) {
     #section-four {
-        width: 100%;
-        height: 200vh;
-        background-image: url("../assets/background-section4.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        height: 155vh;
+    }
+}
+
+@media screen and (max-width: 320px) {  
+    .titulo-principal h1{
+        font-size: 1.5rem;
+    }  
+
+    .descricoes{
+        font-size: 8px;
+    }
+    .img-descricao-four{
+        width: 120%;
+    }
+    #section-four {
+        height: 135vh;
     }
 }

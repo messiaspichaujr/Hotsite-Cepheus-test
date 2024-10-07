@@ -146,7 +146,7 @@
 
     #section-one {
         width: 100%;
-        height: 100vh;
+        height: 160vh;
         background-image: url("../assets/Background-section1.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -197,7 +197,7 @@
 
     #section-three {
         width: 100%;
-        height: 82vh;
+        height: 130vh;
         background-image: url("../assets/background-black.png");
         background-size: cover;
         background-position: center;
@@ -268,6 +268,13 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    #section-one {
+        height: 130vh;
+    }
+    #section-three{
+        height: 90vh;
+    }
 
     .h1-section-three{
         font-size: 6rem;
@@ -390,7 +397,12 @@
     }
 }
     
+@media screen and (max-width: 425px){
+    #section-three {
+        height: 50vh;
 
+    }
+}
 
 @media screen and (max-width: 400px){
     #section-three {
@@ -432,7 +444,7 @@
     
     #section-one {
         width: 100%;
-        height: 115vh;
+        height: 90vh;
         background-image: url("../assets/Background-section1.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -446,14 +458,14 @@
 
     #section-three {
         width: 100%;
-        height: 56vh;
+        height: 43vh;
         background-image: url("../assets/background-section3.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .h1-section-three{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .img-descricao-section-three{
@@ -465,4 +477,35 @@
         width: 12rem;
     }
 
+}
+
+@media screen and (max-width: 320px) {   
+    #section-one {
+        height: 80vh;
+    }
+    .h1-section-dois{
+        font-size: 1rem;
+    }
+    .h1-section{
+        font-size: 3rem;
+    }
+
+    .h1-section-three{
+        font-size: 2rem;
+    }
+
+    .img-monitor-section-three{
+        width: 11rem;
+    }
+
+    .img-descricao-section-three{
+        width: 5.2rem;
+    }
+
+    .container-conteudo{
+        gap: 6rem;
+    }
+    #section-three {
+        height: 38vh;
+    }
 }
