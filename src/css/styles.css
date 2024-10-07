@@ -128,7 +128,7 @@ header {
         background-color: #000;
         position: absolute;
         border-radius: 20px;
-        top: 50%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1000; 
@@ -145,7 +145,7 @@ header {
 
     #mobile-links li a {
         padding: 20px;
-        display: block;
+        display: inline-table;
         width: 100%;
     }
 
