@@ -97,6 +97,28 @@
 .red-no-texto {
     color: #d02c2c;
 }
+@media screen and (max-width: 1070px) {
+    
+    #section-four {
+        height: 350vh;
+    }
+
+    .container-section-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem;
+    }
+    .img-section-four {
+        width: 60%;
+    }
+    .img-descricao-four {
+        width: 65%;
+    }
+    .descricoes {
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     
@@ -175,13 +197,13 @@
         margin-left: 5rem;
     }
     #section-four {
-        height: 240vh;
+        height: 350vh;
     }
 }
 
 @media screen and (max-width: 768px) {
     #section-four {
-        height: 310vh;
+        height: 330vh;
     }
 
     .descricoes {
@@ -193,7 +215,7 @@
 
     #section-four {
         width: 100%;
-        height: 160vh;
+        height: 210vh;
         background-image: url("../assets/background-section4.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -259,7 +281,7 @@
     }
 
     .descricoes {
-        font-size: 11px;
+        font-size: 13px;
         gap: 14px;
         padding-top: 5rem;
         width: 90%;
@@ -276,7 +298,7 @@
 
 @media screen and (max-width: 425px){
     #section-four {
-        height: 165vh;
+        height: 185vh;
     }
 }
 

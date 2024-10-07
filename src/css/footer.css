@@ -94,6 +94,9 @@
     font-family: Nexa;
     font-weight: 600;
 }
+@media screen and (max-width: 1070px) {
+
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -130,7 +133,7 @@
         width: 90%;
     }
     #container-footer{
-        height: 55.5vh;
+        height: 82.5vh;
     }
     .copyright-img img{
         width: 5rem;
@@ -143,7 +146,7 @@
 @media screen and (max-width: 768px) {
     #container-footer{
         padding-top: 3rem;
-        height: 73.8vh;
+        height: 78vh;
     }
 }
 
